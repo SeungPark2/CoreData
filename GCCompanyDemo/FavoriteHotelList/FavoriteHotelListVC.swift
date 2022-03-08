@@ -31,6 +31,7 @@ class FavoriteHotelListVC: UIViewController {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(),
                                                                     for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
+        self.navigationController?.navigationBar.tintColor = .black
         
         self.tabBarController?.tabBar.backgroundImage = UIImage()
         self.tabBarController?.tabBar.shadowImage = UIImage()
